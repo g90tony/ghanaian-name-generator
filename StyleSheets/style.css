@@ -50,3 +50,43 @@ body {
   color: #fbf5f3;
   font-weight: 600;
 }
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100%;
+  width: 100%;
+}
+
+.landing-container {
+  width: 100vw;
+  height: 75vh;
+  padding-bottom: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.landing-heading {
+  margin-top: 150px;
+  margin-bottom: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffb800;
+  text-align: center;
+}
+
+.landing-description {
+  font-size: 14px;
+  text-align: center;
+  width: 45%;
+  margin: 5px auto;
+  color: #fbf5f3;
+}
+
+.landing-disclaimer {
+  text-align: center;
+  font-size: 11px;
+  color: #ffb800;
+  font-weight: 400;
+}
