@@ -10,6 +10,8 @@ const state = {
   selectedNamesPool: [],
 };
 
+const nameDisplay = document.getElementById("nameDisplay");
+
 // setters for state
 
 const setGender = () => {
