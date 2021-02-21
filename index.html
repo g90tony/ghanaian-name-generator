@@ -35,6 +35,50 @@
           </p>
         </div>
       </section>
+
+      <section id="generate">
+        <div class="generate-container bg-overlay">
+          <div class="generate-form-column">
+            <p class="form-heading">Ghanaian Birth-name Form</p>
+            <div class="column-padding">
+              <p class="form-description">
+                Please enter your birth date and gender in the form below
+              </p>
+
+              <form id="generatorForm">
+                <div class="form-input">
+                  <label>Please enter your birth date:</label>
+                  <input
+                    type="date"
+                    onchange="setBirthDate()"
+                    id="dateSelector"
+                  />
+                </div>
+                <div class="form-input">
+                  <label>Please enter your birth gender:</label>
+                  <select id="genderSelector" onchange="setGender()">
+                    <option value="Pick One" disabled selected>Pick One</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+                <button type="submit" class="form-submit-button">
+                  Generate Birth Name
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="generate-results-column">
+            <p class="form-heading" id="nameDisplay">
+              Your Ghanaian Birth-name will appear here
+            </p>
+            <!-- <div class="column-padding generate-results-container">
+              <p class="form-results-text"></p>
+            </div> -->
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
