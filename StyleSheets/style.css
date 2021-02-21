@@ -33,7 +33,7 @@ select option:hover {
 }
 
 .bg-image {
-  background-image: url("/Images/bg.jpg");
+  background-image: url("https://images.pexels.com/photos/6193571/pexels-photo-6193571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=4764&w=7138");
   background-position: center center;
   background-size: cover;
   overflow-x: hidden;
